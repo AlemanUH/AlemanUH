@@ -1,10 +1,10 @@
-- 👋 Hi, I’m @AlemanUH
-- 👀 I’m interested in Data Scientist
-- 🌱 I’m currently learning Phyton and Data Scientist
-- 💞️ I’m looking to collaborate on the UH
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+- 👋 Hola soy Alemán
+- 👀 Estoy estudiando Ciencia de Datos
+- Estoy aprendiendo a programar y a realizar pequeñas tareas de Ciencia de Datos
+- 💞️ no busco a nadie
+- 📫 Me superaré
+- 😄 busco quien me enseñe
+- ⚡ sin miedo al exito
 
 <!---
 AlemanUH/AlemanUH is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
