@@ -1,0 +1,95 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "04-11-2025",
+            "dia": "Lunes",
+            "url": "http://www.cubadebate.cu/noticias/2024/11/04/une-pronostica-afectacion-de-1-366-mw-durante-pico-nocturno-de-este-lunes/"
+        },
+        "estimacion": {
+            "horario": "pico nocturna",
+            "disponibilidad": 1854,
+            "demanda_max": 3150,
+            "deficit": 1296,
+            "pronostico": {
+                "afectacion": 1366
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 1650,
+                "demanda": 2440,
+                "totalidad": false
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 1050
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 445,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Nuevitas"
+                    },
+                    {
+                        "nombre": "Unidad2",
+                        "CTE": "Felton"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 3",
+                        "CTE": "Cienfuegos"
+                    },
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre": "Unidad5",
+                        "CTE": "Renté"
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [ 
+                {
+                    "cantidad": 70,
+                    "razon": "Por combustible",
+                    "mw_afectados": 396
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "se estima la entrada de ocho motores de la CDE Moa",
+                    "razon": "falta de combustible",
+                    "cantidad_mw": 100
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1349,
+            "hora": "18:20",
+            "desc": " coincidente con la hora pico, se reportan 3 MW afectados en Guantánamo por el paso de huracán."
+        },
+        "dia_anterior": {
+            "desc": "se afectó el servicio eléctrico por déficit de capacidad de generación, se ha mantenido durante toda la madrugada de este lunes",
+            "horas": 24,
+            "hora_rest": 0
+        }
+    }
+}

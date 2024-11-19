@@ -1,0 +1,87 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "11-11-2024",
+            "dia": "Lunes",
+            "url": "http://www.cubadebate.cu/noticias/2024/11/11/union-electrica-se-estima-un-deficit-de-generacion-superior-a-los-8"
+        },
+        "estimacion": {
+            "horario": "",
+            "disponibilidad": 1995,
+            "demanda_max": 2700,
+            "deficit": 785,
+            "pronostico": {
+                "afectacion": 855
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 0,
+                "demanda": 0,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 550
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 0,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 3",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 6",
+                        "CTE": "Rente"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 3",
+                        "CTE": "Cienfuegos"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Antonio Maceo"
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                {
+                    "cantidad": 0,
+                    "razon": "",
+                    "mw_afectados": 0
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "",
+                    "razon": "",
+                    "cantidad_mw": 0
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1047,
+            "hora": "18:40",
+            "desc": "la máxima afectación en el resto del país, desde Matanzas hasta Guantánamo"
+        },
+        "dia_anterior": {
+            "desc": "se comenzó a afectar por déficit y capacidad de generación, y eso, por supuesto, no tiene en cuenta las provincias afectadas desde Pinar del Río hasta hasta La Habana las cuales no está consideradas en esta afectación, porque todo lo que se puede servir en estas provincias en estos momentos se está sirviendo y la afectación se concentra desde la provincia de Matanzas hasta la provincia de Guantánamo. Pinar del Río, Artemisa, La Habana y Mayabeque no están contempladas en este en esta situación",
+            "horas": 12,
+            "hora_rest": "13:06 y 00:24"
+        }
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "12-11-2024",
+            "dia": "Martes",
+            "url": "http://www.cubadebate.cu/noticias/2024/11/12/union-electrica-el-sistema-electrico-nacional-opera-de-manera-estab"
+        },
+        "estimacion": {
+            "horario": "pico",
+            "disponibilidad": 1902,
+            "demanda_max": 3000,
+            "deficit": 1098,
+            "pronostico": {
+                "afectacion": 1168
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 1800,
+                "demanda": 2300,
+                "totalidad": false
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 750
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 368,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Mariel"
+                    },
+                    {
+                        "nombre": "Unidad 4",
+                        "CTE": "Cienfuegos"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre": "Unidad 3 y 6",
+                        "CTE": "Renté"
+                    },
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 3",
+                        "CTE": "Cienfuegos"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Renté"
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                {
+                    "cantidad": 37,
+                    "razon": "no dan una razon en específico",
+                    "mw_afectados": 197
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "Se estima la entrada de la unidad 1 de Energás Boca de Jarúco, y la entrada de la unidad 8 de la CTE Mariel",
+                    "razon": "no dan una razón en específico",
+                    "cantidad_mw": 102
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1279,
+            "hora": "18:40",
+            "desc": "concentrado en las provincias desde Matanzas hasta Guantánamo. El servicio se mantuvo afectado durante toda la madrugada de hoy."
+        },
+        "dia_anterior": {
+            "desc": "se afectó el servicio por déficit de capacidad de generación",
+            "horas": 24,
+            "hora_rest": 0
+        }
+    }
+}

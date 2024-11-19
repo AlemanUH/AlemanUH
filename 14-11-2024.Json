@@ -1,0 +1,99 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "14-11-2024",
+            "dia": "jueves",
+            "url": "http://www.cubadebate.cu/noticias/2024/11/14/preve-la-une-deficit-de-1-260-megawatts-durante-el-horario-pico-nocturno-de-este-jueves/"
+        },
+        "estimacion": {
+            "horario": "pico",
+            "disponibilidad": 1760,
+            "demanda_max": 3020,
+            "deficit": 1260,
+            "pronostico": {
+                "afectacion": 1330
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 1730,
+                "demanda": 2450,
+                "totalidad": false
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 950
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 341,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Mariel"
+                    },
+                    {
+                        "nombre": "Unidad 4",
+                        "CTE": "Cienfuegos"
+                    },
+                    {
+                        "nombre": "Unidad 6",
+                        "CTE": "Nuevitas"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre": "Unidad 3 y 6",
+                        "CTE": "Renté"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 3",
+                        "CTE": "Cienfuegos"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Renté"
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                {
+                    "cantidad": 38,
+                    "razon": "Falta de combustible",
+                    "mw_afectados": 257
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "se estuna ka ebtrada de ka unidad 3 de Energas Varadero",
+                    "razon": "no dan ninguna en específico",
+                    "cantidad_mw": 30
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1230,
+            "hora": "18:20",
+            "desc": "coincidente con la máxi,a demanda, concentrado en las provincias desde Mayabeque hasta Guantánamo."
+        },
+        "dia_anterior": {
+            "desc": "se afectó el servicio por déficit de capacidad de generación.",
+            "horas": 24,
+            "hora_rest": 0
+        }
+    }
+}

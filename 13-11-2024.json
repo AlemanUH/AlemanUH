@@ -1,0 +1,95 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "13-11-2024",
+            "dia": "Miércoles",
+            "url": "http://www.cubadebate.cu/noticias/2024/11/13/la-une-pronostica-una-afectacion-de-1400-mw-para-el-horario-pico-de-este-miercoles/"
+        },
+        "estimacion": {
+            "horario": "pico",
+            "disponibilidad": 1870,
+            "demanda_max": 3200,
+            "deficit": 1330,
+            "pronostico": {
+                "afectacion": 1400
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 1870,
+                "demanda": 2440,
+                "totalidad": false
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 850
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 388,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad5",
+                        "CTE": "Marel"
+                    },
+                    {
+                        "nombre": "Unidad 4",
+                        "CTE": "Cienfuegos"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre": "Unidad 3 y 6",
+                        "CTE": "Renté"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 3",
+                        "CTE": "Cienfuegos"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Renté"
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                {
+                    "cantidad": 45,
+                    "razon": "falta de combustible",
+                    "mw_afectados": 180
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "no ocurre nada en específico",
+                    "razon": "no dan ninguna razón en específico",
+                    "cantidad_mw": 0
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1218,
+            "hora": "18:50",
+            "desc": "déficit de capacidad de generación"
+        },
+        "dia_anterior": {
+            "desc": "se afectó el servicio por déficit de capacidad de generación",
+            "horas": 24,
+            "hora_rest": 0
+        }
+    }
+}

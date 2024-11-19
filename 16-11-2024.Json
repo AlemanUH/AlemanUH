@@ -1,0 +1,95 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "15-11-2024",
+            "dia": "Sábado",
+            "url": "http://www.cubadebate.cu/noticias/2024/11/16/la-union-electrica-pronostica-una-afectacion-de-1-510-mw-para-el-horario-pico-nocturno/"
+        },
+        "estimacion": {
+            "horario": "pico nocturno",
+            "disponibilidad": 1660,
+            "demanda_max": 3100,
+            "deficit": 1440,
+            "pronostico": {
+                "afectacion": 1510
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 1560,
+                "demanda": 2154,
+                "totalidad": false
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 1100
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 351,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Mariel"
+                    },
+                    {
+                        "nombre": "Unidad 6",
+                        "CTE": "Nuevitas"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre": "Unidad 3 y 6",
+                        "CTE": "Renté"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 3 y 4",
+                        "CTE": "Cienfuegos"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Renté"
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                {
+                    "cantidad": 53,
+                    "razon": " por déficit de combustible",
+                    "mw_afectados": 509
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "Entrada de 10 motores en la patana de Melones y la salida de los cuatro motres de la patana de Mariel",
+                    "razon": "no dan ninguna en específico",
+                    "cantidad_mw": 100
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1615,
+            "hora": "18:20",
+            "desc": "coincidente con la máxima demanda"
+        },
+        "dia_anterior": {
+            "desc": "se afectó el servicio por déficit de capacidad de generación.",
+            "horas": 24,
+            "hora_rest": 0
+        }
+    }
+}

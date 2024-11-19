@@ -1,0 +1,99 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "06-11-2024",
+            "dia": "Miércoles",
+            "url": "http://www.cubadebate.cu/noticias/2024/11/06/une-preve-afectacion-de-1-354-mw-en-horario-pico-de-este-miercoles/"
+        },
+        "estimacion": {
+            "horario": "pico",
+            "disponibilidad": 1616,
+            "demanda_max": 2900,
+            "deficit": 1284,
+            "pronostico": {
+                "afectacion": 1354
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 1500,
+                "demanda": 2550,
+                "totalidad": false
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 1400
+                }
+            }
+        },
+        "termoelectricas": {
+            "lim_gen_term": 335,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Mariel"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Nuevitas"
+                    },
+                    {
+                        "nombre": "Unidad 4",
+                        "CTE": "Cienfuegos"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    },
+                    {
+                        "nombre": "Unidad 3",
+                        "CTE": "Rente"
+                    }
+                ],
+                "mantenimiento":[
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 3",
+                        "CTE": "Cienfuegos"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Renté"
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                {
+                    "cantidad": 78,
+                    "razon": "Falta de combustible",
+                    "mw_afectados": 493
+                }
+            ]
+        },
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "entrada de 2 motorees de la pantana de Melones",
+                    "razon": "Falta de combustible",
+                    "cantidad_mw": 80
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1768,
+            "hora": "18:20",
+            "desc": "no coincidente con la hora pico, superior a lo planificado por demanda superior al pronóstico, por salida imprevista de la unidad 4 de la CTE Cienfuegos y por la no recuperación de la potencia afectada por combustible en la pantana de Melones. Se reportan 3 MW afectados por el paso del huracán"
+        },
+        "dia_anterior": {
+            "desc": "déficit de capacidad de generación, la afectación se ha mantenido durante la madrugada de hoy",
+            "horas": 24,
+            "hora_rest": 0
+        }
+    }
+}
